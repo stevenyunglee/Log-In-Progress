@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46066DDFEB124DEE5FFF725C /* Pods_Log_In_ProgressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2762919DCA20CA1E53D1F898 /* Pods_Log_In_ProgressUITests.framework */; };
+		55C676843B40D3E9AA9A97E6 /* Pods_Log_In_Progress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BE1AB9F603469CD518BD4B /* Pods_Log_In_Progress.framework */; };
+		9E7A13AD04AB9E7B43F571E3 /* Pods_Log_In_ProgressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673F38B6F7ECD17E40C15D25 /* Pods_Log_In_ProgressTests.framework */; };
 		C72F06A8223CE296003149CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F06A7223CE296003149CE /* AppDelegate.swift */; };
-		C72F06AA223CE296003149CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F06A9223CE296003149CE /* ViewController.swift */; };
+		C72F06AA223CE296003149CE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F06A9223CE296003149CE /* LogInViewController.swift */; };
 		C72F06AD223CE296003149CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72F06AB223CE296003149CE /* Main.storyboard */; };
 		C72F06B0223CE296003149CE /* Log_In_Progress.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C72F06AE223CE296003149CE /* Log_In_Progress.xcdatamodeld */; };
 		C72F06B2223CE298003149CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72F06B1223CE298003149CE /* Assets.xcassets */; };
 		C72F06B5223CE298003149CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72F06B3223CE298003149CE /* LaunchScreen.storyboard */; };
 		C72F06C0223CE298003149CE /* Log_In_ProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F06BF223CE298003149CE /* Log_In_ProgressTests.swift */; };
 		C72F06CB223CE298003149CE /* Log_In_ProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F06CA223CE298003149CE /* Log_In_ProgressUITests.swift */; };
+		C79CEC1E2249EF0E00CED06E /* proximanova-black-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79CEC1A2249E62400CED06E /* proximanova-black-webfont.ttf */; };
+		C79CEC1F2249EF0E00CED06E /* proximanova-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79CEC192249E62400CED06E /* proximanova-bold.ttf */; };
+		C79CEC202249EF0E00CED06E /* proximanova-extrabld-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79CEC172249E62300CED06E /* proximanova-extrabld-webfont.ttf */; };
+		C79CEC212249EF0E00CED06E /* proximanova-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79CEC1C2249E62400CED06E /* proximanova-light-webfont.ttf */; };
+		C79CEC222249EF0E00CED06E /* proximanova-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79CEC182249E62300CED06E /* proximanova-regular-webfont.ttf */; };
+		C79CEC232249EF0E00CED06E /* proximanova-semibold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79CEC1B2249E62400CED06E /* proximanova-semibold-webfont.ttf */; };
+		C7D81B5B224AD82C00467704 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = C7D81B5A224AD82C00467704 /* check.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15BE1AB9F603469CD518BD4B /* Pods_Log_In_Progress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Log_In_Progress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2762919DCA20CA1E53D1F898 /* Pods_Log_In_ProgressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Log_In_ProgressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F510CF14713010D412A3EBA /* Pods-Log-In-Progress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log-In-Progress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Log-In-Progress/Pods-Log-In-Progress.debug.xcconfig"; sourceTree = "<group>"; };
+		487E7E5D5E7C26389E0941C5 /* Pods-Log-In-ProgressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log-In-ProgressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Log-In-ProgressTests/Pods-Log-In-ProgressTests.release.xcconfig"; sourceTree = "<group>"; };
+		57EF4936E23F37909BC0713F /* Pods-Log-In-ProgressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log-In-ProgressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Log-In-ProgressUITests/Pods-Log-In-ProgressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		673F38B6F7ECD17E40C15D25 /* Pods_Log_In_ProgressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Log_In_ProgressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E097F5532A8221127B3266 /* Pods-Log-In-ProgressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log-In-ProgressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Log-In-ProgressTests/Pods-Log-In-ProgressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D9064AE65D13D9C3CE92F1 /* Pods-Log-In-ProgressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log-In-ProgressUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Log-In-ProgressUITests/Pods-Log-In-ProgressUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C72F06A4223CE296003149CE /* Log-In-Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Log-In-Progress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72F06A7223CE296003149CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C72F06A9223CE296003149CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C72F06A9223CE296003149CE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		C72F06AC223CE296003149CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C72F06AF223CE296003149CE /* Log_In_Progress.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Log_In_Progress.xcdatamodel; sourceTree = "<group>"; };
 		C72F06B1223CE298003149CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,14 @@
 		C72F06C6223CE298003149CE /* Log-In-ProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Log-In-ProgressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72F06CA223CE298003149CE /* Log_In_ProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log_In_ProgressUITests.swift; sourceTree = "<group>"; };
 		C72F06CC223CE298003149CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79CEC172249E62300CED06E /* proximanova-extrabld-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-extrabld-webfont.ttf"; sourceTree = "<group>"; };
+		C79CEC182249E62300CED06E /* proximanova-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular-webfont.ttf"; sourceTree = "<group>"; };
+		C79CEC192249E62400CED06E /* proximanova-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold.ttf"; sourceTree = "<group>"; };
+		C79CEC1A2249E62400CED06E /* proximanova-black-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-black-webfont.ttf"; sourceTree = "<group>"; };
+		C79CEC1B2249E62400CED06E /* proximanova-semibold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-semibold-webfont.ttf"; sourceTree = "<group>"; };
+		C79CEC1C2249E62400CED06E /* proximanova-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-light-webfont.ttf"; sourceTree = "<group>"; };
+		C7D81B5A224AD82C00467704 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
+		F92F6C7E7CFEF270887C10B3 /* Pods-Log-In-Progress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Log-In-Progress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Log-In-Progress/Pods-Log-In-Progress.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C676843B40D3E9AA9A97E6 /* Pods_Log_In_Progress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7A13AD04AB9E7B43F571E3 /* Pods_Log_In_ProgressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46066DDFEB124DEE5FFF725C /* Pods_Log_In_ProgressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3495877E9256B98D4898A480 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F510CF14713010D412A3EBA /* Pods-Log-In-Progress.debug.xcconfig */,
+				F92F6C7E7CFEF270887C10B3 /* Pods-Log-In-Progress.release.xcconfig */,
+				98E097F5532A8221127B3266 /* Pods-Log-In-ProgressTests.debug.xcconfig */,
+				487E7E5D5E7C26389E0941C5 /* Pods-Log-In-ProgressTests.release.xcconfig */,
+				57EF4936E23F37909BC0713F /* Pods-Log-In-ProgressUITests.debug.xcconfig */,
+				C4D9064AE65D13D9C3CE92F1 /* Pods-Log-In-ProgressUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51BCEB074B503587500A586E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15BE1AB9F603469CD518BD4B /* Pods_Log_In_Progress.framework */,
+				673F38B6F7ECD17E40C15D25 /* Pods_Log_In_ProgressTests.framework */,
+				2762919DCA20CA1E53D1F898 /* Pods_Log_In_ProgressUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C72F069B223CE296003149CE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				C72F06BE223CE298003149CE /* Log-In-ProgressTests */,
 				C72F06C9223CE298003149CE /* Log-In-ProgressUITests */,
 				C72F06A5223CE296003149CE /* Products */,
+				3495877E9256B98D4898A480 /* Pods */,
+				51BCEB074B503587500A586E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +153,12 @@
 		C72F06A6223CE296003149CE /* Log-In-Progress */ = {
 			isa = PBXGroup;
 			children = (
+				C79CEC1D2249EE9100CED06E /* Resources */,
 				C72F06A7223CE296003149CE /* AppDelegate.swift */,
-				C72F06A9223CE296003149CE /* ViewController.swift */,
+				C72F06A9223CE296003149CE /* LogInViewController.swift */,
 				C72F06AB223CE296003149CE /* Main.storyboard */,
-				C72F06B1223CE298003149CE /* Assets.xcassets */,
 				C72F06B3223CE298003149CE /* LaunchScreen.storyboard */,
+				C72F06B1223CE298003149CE /* Assets.xcassets */,
 				C72F06B6223CE298003149CE /* Info.plist */,
 				C72F06AE223CE296003149CE /* Log_In_Progress.xcdatamodeld */,
 			);
@@ -128,6 +183,20 @@
 			path = "Log-In-ProgressUITests";
 			sourceTree = "<group>";
 		};
+		C79CEC1D2249EE9100CED06E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7D81B5A224AD82C00467704 /* check.json */,
+				C79CEC1A2249E62400CED06E /* proximanova-black-webfont.ttf */,
+				C79CEC192249E62400CED06E /* proximanova-bold.ttf */,
+				C79CEC172249E62300CED06E /* proximanova-extrabld-webfont.ttf */,
+				C79CEC1C2249E62400CED06E /* proximanova-light-webfont.ttf */,
+				C79CEC182249E62300CED06E /* proximanova-regular-webfont.ttf */,
+				C79CEC1B2249E62400CED06E /* proximanova-semibold-webfont.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C72F06CF223CE298003149CE /* Build configuration list for PBXNativeTarget "Log-In-Progress" */;
 			buildPhases = (
+				F0F60806074913153508EE06 /* [CP] Check Pods Manifest.lock */,
 				C72F06A0223CE296003149CE /* Sources */,
 				C72F06A1223CE296003149CE /* Frameworks */,
 				C72F06A2223CE296003149CE /* Resources */,
+				2B57030EDC14A7281910993D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C72F06D2223CE298003149CE /* Build configuration list for PBXNativeTarget "Log-In-ProgressTests" */;
 			buildPhases = (
+				5E1126D9C003497A13958774 /* [CP] Check Pods Manifest.lock */,
 				C72F06B7223CE298003149CE /* Sources */,
 				C72F06B8223CE298003149CE /* Frameworks */,
 				C72F06B9223CE298003149CE /* Resources */,
@@ -170,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C72F06D5223CE298003149CE /* Build configuration list for PBXNativeTarget "Log-In-ProgressUITests" */;
 			buildPhases = (
+				FA7AE9BD29901EE75A4890EB /* [CP] Check Pods Manifest.lock */,
 				C72F06C2223CE298003149CE /* Sources */,
 				C72F06C3223CE298003149CE /* Frameworks */,
 				C72F06C4223CE298003149CE /* Resources */,
@@ -232,6 +305,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D81B5B224AD82C00467704 /* check.json in Resources */,
+				C79CEC1E2249EF0E00CED06E /* proximanova-black-webfont.ttf in Resources */,
+				C79CEC1F2249EF0E00CED06E /* proximanova-bold.ttf in Resources */,
+				C79CEC202249EF0E00CED06E /* proximanova-extrabld-webfont.ttf in Resources */,
+				C79CEC212249EF0E00CED06E /* proximanova-light-webfont.ttf in Resources */,
+				C79CEC222249EF0E00CED06E /* proximanova-regular-webfont.ttf in Resources */,
+				C79CEC232249EF0E00CED06E /* proximanova-semibold-webfont.ttf in Resources */,
 				C72F06B5223CE298003149CE /* LaunchScreen.storyboard in Resources */,
 				C72F06B2223CE298003149CE /* Assets.xcassets in Resources */,
 				C72F06AD223CE296003149CE /* Main.storyboard in Resources */,
@@ -254,12 +334,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B57030EDC14A7281910993D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Log-In-Progress/Pods-Log-In-Progress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Log-In-Progress/Pods-Log-In-Progress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1126D9C003497A13958774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Log-In-ProgressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F60806074913153508EE06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Log-In-Progress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7AE9BD29901EE75A4890EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Log-In-ProgressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C72F06A0223CE296003149CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C72F06AA223CE296003149CE /* ViewController.swift in Sources */,
+				C72F06AA223CE296003149CE /* LogInViewController.swift in Sources */,
 				C72F06B0223CE296003149CE /* Log_In_Progress.xcdatamodeld in Sources */,
 				C72F06A8223CE296003149CE /* AppDelegate.swift in Sources */,
 			);
@@ -434,9 +589,11 @@
 		};
 		C72F06D0223CE298003149CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F510CF14713010D412A3EBA /* Pods-Log-In-Progress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q27FX4S8VD;
 				INFOPLIST_FILE = "Log-In-Progress/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +608,11 @@
 		};
 		C72F06D1223CE298003149CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92F6C7E7CFEF270887C10B3 /* Pods-Log-In-Progress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q27FX4S8VD;
 				INFOPLIST_FILE = "Log-In-Progress/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +627,7 @@
 		};
 		C72F06D3223CE298003149CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E097F5532A8221127B3266 /* Pods-Log-In-ProgressTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +648,7 @@
 		};
 		C72F06D4223CE298003149CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487E7E5D5E7C26389E0941C5 /* Pods-Log-In-ProgressTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		C72F06D6223CE298003149CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EF4936E23F37909BC0713F /* Pods-Log-In-ProgressUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +689,7 @@
 		};
 		C72F06D7223CE298003149CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D9064AE65D13D9C3CE92F1 /* Pods-Log-In-ProgressUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

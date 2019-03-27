@@ -1,0 +1,6 @@
+framework module Pods_Log_In_ProgressUITests {
+  umbrella header "Pods-Log-In-ProgressUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

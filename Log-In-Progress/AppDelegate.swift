@@ -16,8 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        UITextField.appearance().tintColor = UIColor(red:0.13, green:0.79, blue:0.58, alpha:1.0)
+
         // Override point for customization after application launch.
         return true
+    
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
